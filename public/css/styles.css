@@ -1,4 +1,40 @@
-header.principal {
-    background-color: yellow;
+header {
+    font-family: 'Roboto', sans-serif;;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header.principal {
+    background-color: #EAC926;;
+}
+
+footer {
+    background-color: #EAC926;;
+}
+
+div.burguer-menu {
+    background-color: #03264C;
+}
+
+p.precio {
+    font-size: 18px;
+}
+
+h3.titulares {
+    font-size: 24px;
+}
+
+p.descuento {
+    font-size: 16px;
+}
+
+p.NombreProducto {
+    font-size: 16px;
+}
+
+footer {
+    align-items: center;
+    text-align: center;
+}
