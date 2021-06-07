@@ -38,3 +38,32 @@ footer {
     align-items: center;
     text-align: center;
 }
+
+.logo-barra-busqueda {
+    display:flex;
+    justify-content: space-between;
+}
+
+.compra-en-cuotas {
+    display:flex;
+}
+
+.barra-navegacion {
+    display:flex;
+
+}
+
+/*
+.enlaces {
+    list-style:none;
+    display:flex;
+    flex-direction: row;
+}
+
+.enlaces-cuenta {
+    list-style:none;
+    display:flex;
+    flex-direction: row;
+}
+*/
+
