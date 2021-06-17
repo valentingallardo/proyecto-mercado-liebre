@@ -75,3 +75,14 @@ article {
     box-shadow: 10px 5px 5px #707070;
     background-color: white;
 }
+
+.descuento {
+    color: #39b54a;
+}
+
+.fa-truck {
+    color: #39b54a;
+    padding: 3px;
+    border: 1px solid #39b54a;
+    border-radius: 100%
+}
