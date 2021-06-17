@@ -11,6 +11,7 @@ header.principal {
     background-color: #EAC926;;
     margin: 0px;
     border: 0px;
+    width: 100vw;
 }
 
 footer {
@@ -41,6 +42,7 @@ footer {
     align-items: center;
     text-align: center;
     padding: 20px;
+    width: 100vw;
 }
 
 .logo-barra-busqueda {

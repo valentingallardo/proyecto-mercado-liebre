@@ -12,3 +12,8 @@ app.get("/", function(req, res){
     let htmlPath = path.join(__dirname, "/views/home.html");
     res.sendFile(htmlPath);
 })
+
+app.get("/crear-tu-cuenta", function(req, res){
+    let htmlPath = path.join(__dirname, "/views/register.html");
+    res.sendFile(htmlPath);
+})
