@@ -53,17 +53,11 @@ footer {
 
 }
 
-/*
-.enlaces {
-    list-style:none;
-    display:flex;
-    flex-direction: row;
+.section-body {
+    display: flex;
 }
 
-.enlaces-cuenta {
-    list-style:none;
-    display:flex;
-    flex-direction: row;
+.titular-seccion {
+    text-align: center;
+    width: 100vw
 }
-*/
-
