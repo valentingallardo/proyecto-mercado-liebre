@@ -4,10 +4,13 @@ header {
 
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;;
 }
 
 header.principal {
     background-color: #EAC926;;
+    margin: 0px;
+    border: 0px;
 }
 
 footer {
@@ -37,6 +40,7 @@ p.NombreProducto {
 footer {
     align-items: center;
     text-align: center;
+    padding: 20px;
 }
 
 .logo-barra-busqueda {
@@ -60,4 +64,12 @@ footer {
 .titular-seccion {
     text-align: center;
     width: 100vw
+}
+
+article {
+    margin: 5px;
+    border: solid 1px black;
+    padding: 8px;
+    box-shadow: 10px 5px 5px #707070;
+    background-color: white;
 }
