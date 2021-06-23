@@ -2,7 +2,7 @@ const express = require("express");
 const path = require("path");
 const app = express();
 
-app.listen(3000, () => {
+app.listen(process.env.PORT || 300, () => {
     console.log("Servidor corriendo en el puerto 3000");
 })
 
