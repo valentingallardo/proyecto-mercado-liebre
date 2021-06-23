@@ -14,7 +14,110 @@
 
 </head>
 
+<header class="principal">
+    <div class="logo-barra-busqueda">
+        <img src="../images/logo-mercado-liebre.svg" width="360" alt="Logo de MercadoLiebre">
+        <form action="home.html" method="GET">
+            <p>
+                <input type="search" name="busqueda">
+                <button type="submit">Buscar</button>
+            </p>
+        </form>
+    </div>
+    <div class="compra-en-cuotas">
+        <span><i class="fas fa-hand-holding-usd"></i></span> <span>
+            <p>Comprá en cuotas y sin tarjeta de crédito</p>
+        </span>
+    </div>
+    <div class="barra-navegacion">
+        <ul class="enlaces">
+            <li><a href="#">Ofertas</a></li>
+            <li><a href="#">Tiendas Oficiales</a></li>
+            <li><a href="#">Vender</a></li>
+            <li><a href="#">Ayuda</a></li>
+        </ul>
+        <ul class="enlaces-cuenta">
+            <li><a href="/crear-tu-cuenta">Creá tu cuenta</a><i class="far fa-address-card"></i></li>
+            <li><a href="#">Ingresá</a><i class="fas fa-sign-in-alt"></i></li>
+            <li><a href="#">Mis compras</a><i class="fas fa-shopping-basket"></i></li>
+        </ul>
+    </div>
+    <div class="burguer-menu">
+        <i class="fas fa-bars"></i>
+    </div>
+</header>
+
+<div class="form-register">
+
+    <h3 class="titulo-register">Creá tu cuenta en Mercado Liebre</h3>
+
+    <form action="register.html" method="POST">
+        <p>Nombre</p>
+        <input type="text" name="nombre">
+
+        <p>Apellido</p>
+        <input type="text" name="apellido">
+
+        <p>Correo electrónico</p>
+        <input type="email" name="correo-electronico">
+
+        <p>Contraseña</p>
+        <input type="password" name="contraseña">
+
+        <p>Confirmar contraseña</p>
+        <input type="password" name="confirmar-contraseña">
+
+        <p>¿Cuáles son tus intereses en Mercado Liebre?</p>
+        <input type="checkbox" id="cbox1" value="first_checkbox">
+        <label for="cbox1"> Electrónica</label><br>
+        <input type="checkbox" id="cbox2" value="second_checkbox">
+        <label for="cbox2">Hogar</label>
+        <br>
+        <input type="checkbox" id="cbox2" value="third_checkbox">
+        <label for="cbox2">Arte</label>
+        <br>
+        <input type="checkbox" id="cbox2" value="fourth_checkbox">
+        <label for="cbox2">Otros</label>
+
+        <p>Tu función en la página:</p>
+        <input type="radio" id="radio1" name="vender" value="Vender">
+        <label for="radio1">Vender</label>
+        <br>
+        <input type="radio" id="radio2" name="comprar" value="Comprar">
+        <label for="radio2">Comprar</label>
+        <br>
+        <br>
+
+        <input type="checkbox" id="check-terminos" value="fifth-checkbox">
+        <label for="check-terminos">Acepto los términos y condiciones y la política de privacidad de Mercado Liebre</label>
+        <br><br>
+
+        <button type="submit">Crear mi cuenta</button>
+    </form>
+
+</div>
 
 
+<footer>
+    <section>
+        <i class="fas fa-credit-card"></i>
+        <h3>Pagá con tarjeta o en efectivo</h3>
+        <p>Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en
+            puntos de pago. ¡Y siempre es seguro!</p>
+    </section>
+    <section>
+        <i class="fas fa-gift"></i>
+        <h3>Envío gratis desde $2.500</h3>
+        <p>Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de
+            productos. Es un beneficio de Mercado Puntos.</p>
+    </section>
+    <section>
+        <i class="fas fa-user-shield"></i>
+        <h3>Seguridad de principio a fin</h3>
+        <p>¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer,
+            porque estás siempre protegid@.</p>
+    </section>
+    Copyright© 1999 - 2020 MercadoLiebre S.R.L.
+</footer>
 
 </html>

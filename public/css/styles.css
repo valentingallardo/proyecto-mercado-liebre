@@ -86,3 +86,14 @@ article {
     border: 1px solid #39b54a;
     border-radius: 100%
 }
+
+.form-register {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.titulo-register {
+    margin: 40px;
+}
