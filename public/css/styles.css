@@ -72,15 +72,15 @@ article {
     margin: 5px;
     border: solid 1px black;
     padding: 8px;
-    /*
     box-shadow: 10px 5px 5px #707070;
-    */
     background-color: white;
 }
 
+/*
 article:hover {
     animation: animacion-caja 0.2ms;
 }
+*/
 
 .descuento {
     color: #39b54a;
