@@ -97,14 +97,24 @@ article:hover {
     text-align: center;
     justify-content: center;
     align-items: center;
-    border: 1px solid black;
 }
 
 .titulo-register {
     margin: 40px;
 }
 
+.form-login {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-login {
+    margin:40px;
+}
+/*
 @keyframes animacion-caja {
     0% {box-shadow:none}
     100% {box-shadow: 10px 5px 5px #707070;}
 }
+*/
