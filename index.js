@@ -17,3 +17,8 @@ app.get("/crear-tu-cuenta", function(req, res){
     let htmlPath = path.join(__dirname, "/views/register.html");
     res.sendFile(htmlPath);
 })
+
+app.get("/ingresar", function(req, res){
+    let htmlPath = path.join(__dirname, "/views/login.html");
+    res.sendFile(htmlPath);
+})
