@@ -72,8 +72,14 @@ article {
     margin: 5px;
     border: solid 1px black;
     padding: 8px;
+    /*
     box-shadow: 10px 5px 5px #707070;
+    */
     background-color: white;
+}
+
+article:hover {
+    animation: animacion-caja;
 }
 
 .descuento {
@@ -96,4 +102,9 @@ article {
 
 .titulo-register {
     margin: 40px;
+}
+
+@keyframes animacion-caja {
+    0% {box-shadow:none}
+    100% {box-shadow: 10px 5px 5px #707070;}
 }
